@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Ignore Firebase credentials and local configuration
+niha-ipd-firebase-adminsdk-fbsvc-a72b6a1b3c.json
+*.json
+
+# Ignore local files
+send_to_sheet_test.py
+config.json
+credentials.json
